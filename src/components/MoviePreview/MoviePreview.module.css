@@ -1,2 +1,36 @@
 .movieCard {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    width: fit-content;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+}
+
+.movieCard img{
+    object-fit:scale-down;
+    height: 50vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.movieCard p {
+    font-weight: bolder;
+    font-size: 2em ;
+    width:min-content;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.grey {
+    color: grey;
 }
